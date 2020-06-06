@@ -1,0 +1,190 @@
+body{
+    margin:0px;
+    background-color:#FF4D00;
+
+    background: rgb(253,29,29);
+background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
+
+user-select: none;
+
+overflow-y:scroll;
+}
+
+.tdp{
+    margin-top:1.5em;
+    margin-bottom:0em;
+}
+
+.okvir{
+    text-align: center;
+
+    font-family: 'Lexend Deca', sans-serif;
+    
+    color:white;
+    font-size:1em;
+}
+
+.navbar{
+    display: table;   /* Allow the centering to work */
+    padding: 0px;
+    margin:auto;
+    list-style: none;
+}
+
+ul.navbar li{
+    display: inline;
+}
+
+.option{
+    display:inline-block;
+    padding-bottom: 0.5em;
+    
+    border-bottom:1.5px solid #BD3900;
+    color: #BD3900;
+
+    font-weight: 100;
+
+    transition: color .2s;
+
+    margin-right:2em;
+}
+
+.active_option{
+    border-bottom:1.5px solid white;
+    color: white;
+}
+
+
+
+.option:hover{
+    border-bottom:1.5px solid white;
+    color: white;
+}
+
+.glavni_okvir{
+    width:60%;
+    margin:auto;
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+    box-shadow: 0px 0px 33px -15px rgba(0,0,0,0.5);
+
+    padding: 2em;
+
+    margin-top:2em;
+    color:black;
+}
+
+.dokumenti{
+    padding-inline-start: 0px;
+}
+
+.dokument{
+    list-style: "\1F5CE";
+    list-style-position: inside;
+   
+    background-color:#F2F2F2;
+    margin-bottom:0.3em;
+    padding: 0.5em;
+    border-radius: 10px;
+    border: 1.1px solid #CBCBCB;
+
+    color:#424242;
+
+    transition: box-shadow .2s;
+    transition: background-color .2s;
+
+    position: relative;
+    
+}
+
+
+
+.dokument:hover{
+    box-shadow: 0px 0px 33px -15px rgba(0,0,0,0.5);
+    background-color: #B3B3B3;
+    color:white;
+    cursor: pointer;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.naslov{
+    font-size: 1.5em;
+    color: #FF4D00;
+    margin-bottom:0.2em;
+}
+
+/** ----------------------------------------------------------------------------------------------------**/
+
+#zadaci1{
+    
+    display: none;
+ 
+}
+
+#zadaci2{
+    
+    display: none;
+    padding:1em;
+ 
+}
+
+#zadaci3{
+    display:none;
+}
+
+.zadaci2_clear{
+    border:0px;
+    background-color: white;
+    color:#424242;
+    padding:0px;
+
+    font-size: 0.8em;
+
+}
+
+.zadaci2_clear:hover{
+    background-color: white;
+    box-shadow: none;
+    color:#FF4D00;
+
+    font-size: 0.8em;
+}
+
+.zadatak{
+    
+    padding:1em;
+
+    margin-bottom:0.3em;
+    border-bottom: 1.1px solid #CBCBCB;
+    
+    transition: 0.2s;
+
+}
+
+.vj1{
+    list-style: none;
+}
+
+.zadatak_naslov{
+    margin-bottom:0.5em;
+    color:rgb(73, 68, 68);
+    font-size: 0.8em;
+}
+
+
+.zadatak_slika{
+    width:12em;
+    height:8em;
+    border-radius:10px;
+    object-fit: cover;
+    border: 1.1px solid #CBCBCB;
+
+    
+}
+
+
